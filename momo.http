@@ -1,0 +1,13 @@
+@baseUrl=http://localhost:8080/momo
+
+### Payment Request
+POST {{baseUrl}}/pay
+Content-Type: application/json
+
+{
+  "billId": "jfdska393u09dusf",
+  "orderInfo": "Thanh toán đơn hàng 123",
+  "amount": 20000,
+  "subject": "Thanh toán",
+  "text": "Ghi chú cho thanh toán"
+}
